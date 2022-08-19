@@ -57,12 +57,18 @@ button:active {
 }
 
 .mystory {
-    padding:80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 80px;
 }
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+ } 
 
 p {
     margin: 0;
@@ -89,34 +95,17 @@ h2 {
     align-items: center;
 }
 
-a:hover {
-    cursor: pointer;
-    color: green;
-}
-
-
-
-.project-section {
-    display: flex;
-    flex-direction: column;
-    text-align: center
-    padding: 80px;
- }
-
 .project-card {
-    width: 300px;
+    width: 200px;
     height: 500px;
     box-shadow: 5px 5px 20px darkgrey;
     justify-content: space-around;
 }
 
 .project-container {
-    
+    display: flex;
+    justify-content: space-around;
 }
-
-
-
-
 
 .contact {
     display: inline-flex;
@@ -133,6 +122,12 @@ a:hover {
 footer {
     text-align: center;
     border-top: 5px white;
+}
+
+
+a:hover {
+    cursor: pointer;
+    color: green;
 }
 
 @media screen and(max-width: 798px) {
