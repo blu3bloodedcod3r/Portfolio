@@ -1,0 +1,142 @@
+* {
+    font-style: "Georgia", sans-serif, 'Papyrus';
+    background-color: royalblue;
+    color:aliceblue
+    text-align: center;
+}
+
+body {
+    font-size: 24px;
+}
+
+hero {
+    background-color: royalblue;
+    height: 100vh;
+    margin-left: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 40px;
+    align-items: center;
+}
+
+.social {
+    padding-bottom: 200px;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    display:inline;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+button:hover {
+    background-color: palegreen;
+}
+
+button:active {
+    background-color: beige;
+    color:blue
+}
+
+.mystory {
+    padding:80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+    justify-content: center;
+}
+
+#selfie {
+    border-radius: 150px;
+    width: 200px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+a:hover {
+    cursor: pointer;
+    color: green;
+}
+
+
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center
+    padding: 80px;
+ }
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px darkgrey;
+    justify-content: space-around;
+}
+
+.project-container {
+    
+}
+
+
+
+
+
+.contact {
+    display: inline-flex;
+    flex: auto;
+    justify-content: space-around;
+}
+ 
+
+#info {
+    font-style: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    border-top: 5px white;
+}
+
+@media screen and(max-width: 798px) {
+    flex-wrap: wrap;
+}
+
+  
