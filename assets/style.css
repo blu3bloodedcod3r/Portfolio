@@ -5,7 +5,7 @@
 
 * {
     font-style: "Georgia", sans-serif, 'Papyrus';
-    background-color: rgb(149, 174, 248);
+    background-color: dodgerblue;
     color:aliceblue
 }
 
@@ -14,8 +14,8 @@ body {
 }
 
 hero {
-    background-color: rgb(149, 174, 248);
-    height: 100vh;
+    background-color: dodgerblue;
+    height: 50vh;
     margin-left: 40px;
     display:flex;
     flex-direction: column;
@@ -24,9 +24,13 @@ hero {
     align-items: center;
 }
 
-.social {
+#social {
     padding-bottom: 200px;
-    margin: 20px;
+    justify-items: end;
+}
+
+.socials {
+    margin: 10px;
 }
 
 nav {
@@ -39,6 +43,7 @@ nav ul li {
     text-decoration: none;
     list-style-type: none;
     justify-content: space-around;
+    padding: 5pxS;
 }
 
 .mystory {
@@ -54,6 +59,7 @@ nav ul li {
     justify-content: flex-end;
     display: flex;
     align-items: center;
+    box-shadow: 5px 5px 20px black;
 }
 
 .project-section {
@@ -73,6 +79,7 @@ button {
     font-size: 20px;
     font-weight: 300;
     padding-top: 5px;
+    box-shadow: 5px 5px 20px black;
 }
 
 button:hover {
@@ -80,8 +87,8 @@ button:hover {
 }
 
 button:active {
-    background-color: beige;
-    color:rgb(255, 136, 0)
+    background-color: violet;
+    color:rgb(134, 11, 172)
 }
 
 p {
@@ -114,8 +121,8 @@ h3 {
 
 .project-card {
     width: 200px;
-    height: 500px;
-    box-shadow: 5px 5px 20px 0 rgb(75, 11, 248);
+    height: 300px;
+    box-shadow: 5px 5px 20px black;
     justify-content: space-around;
     align-items: column;
     margin: 10px;
@@ -125,6 +132,13 @@ h3 {
     display: flex;
     justify-content: space-around;
     margin: 10px;
+}
+
+@media only screen and (max-width: 996px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .proj-img {
@@ -141,30 +155,39 @@ hr {
 }
 
 .contact {
-    display: inline-flex;
-    flex: auto;
-    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px;
+    padding-left: 200px;
+    flex-direction: row;
 }
- 
 
-#info {
-    font-style: bold;
-    margin-top: 10px;
+.info-container {
+    box-shadow: 5px 5px 20px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    list-style-type: none;
+}
+
+.info {
+    align-items: flex-end;
+    margin: 20px;
+    align-items: center;
+    justify-content: end;
 }
 
 footer {
+    font-size: 15px;
     text-align: center;
     border-top: 5px white;
 }
-
 
 a:hover {
     cursor: pointer;
     color: green;
 }
 
-@media screen and(max-width: 798px) {
-    flex-wrap: wrap;
-}
 
   
