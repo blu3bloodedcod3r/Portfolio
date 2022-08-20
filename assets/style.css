@@ -1,8 +1,12 @@
+/*used video:https://www.youtube.com/watch?v=-D6oTPA4vXc as directions for building my website */
+:root {
+
+}
+
 * {
     font-style: "Georgia", sans-serif, 'Papyrus';
-    background-color: royalblue;
+    background-color: rgb(149, 174, 248);
     color:aliceblue
-    text-align: center;
 }
 
 body {
@@ -10,7 +14,7 @@ body {
 }
 
 hero {
-    background-color: royalblue;
+    background-color: rgb(149, 174, 248);
     height: 100vh;
     margin-left: 40px;
     display:flex;
@@ -28,6 +32,7 @@ hero {
 nav {
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 nav ul li {
     display:inline;
@@ -35,6 +40,29 @@ nav ul li {
     list-style-type: none;
     justify-content: space-around;
 }
+
+.mystory {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+#selfie {
+    border-radius: 150px;
+    width: 200px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 80px;
+ } 
 
 button {
     width: 200px;
@@ -53,28 +81,20 @@ button:hover {
 
 button:active {
     background-color: beige;
-    color:blue
+    color:rgb(255, 136, 0)
 }
-
-.mystory {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 80px;
-}
-
-.project-section {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 80px;
- } 
 
 p {
     margin: 0;
     font-size: 20px;
     font-weight: 100;
     padding: 10px;
+}
+
+.project-descr {
+    font-size: 15px;
+    font-weight: 200;
+    display: flex;
 }
 
 h1 {
@@ -87,24 +107,38 @@ h2 {
     justify-content: center;
 }
 
-#selfie {
-    border-radius: 150px;
-    width: 200px;
-    justify-content: flex-end;
-    display: flex;
-    align-items: center;
+h3 {
+    font-size: 25px;
+    justify-content: space-around;
 }
+
 
 .project-card {
     width: 200px;
     height: 500px;
-    box-shadow: 5px 5px 20px darkgrey;
+    box-shadow: 5px 5px 20px 0 rgb(75, 11, 248);
     justify-content: space-around;
+    align-items: column;
+    margin: 10px;
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
+    margin: 10px;
+}
+
+.proj-img {
+    margin-top: 25px;
+    width: 100px;
+    border-radius: 150px;
+    height: 100px;
+    align-items: column;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .contact {
