@@ -21,16 +21,15 @@ hero {
     flex-direction: column;
     justify-content: space-between;
     font-size: 40px;
-    align-items: center;
+    align-items: right;
 }
 
-#social {
+#social, .socials {
     padding-bottom: 200px;
-    justify-items: end;
-}
-
-.socials {
-    margin: 10px;
+    align-items: flex-end;
+    justify-items: flex-start;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 nav {
@@ -80,6 +79,7 @@ button {
     font-weight: 300;
     padding-top: 5px;
     box-shadow: 5px 5px 20px black;
+    align-items: center;
 }
 
 button:hover {
@@ -168,7 +168,6 @@ hr {
     flex-direction: row;
     align-items: center;
     margin: 20px;
-    list-style-type: none;
 }
 
 .info {
