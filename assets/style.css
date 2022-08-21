@@ -42,14 +42,14 @@ nav ul li {
     text-decoration: none;
     list-style-type: none;
     justify-content: space-around;
-    padding: 5pxS;
+    padding: 10px;
 }
 
 .mystory {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 80px;
+    padding: 50px;
 }
 
 #selfie {
@@ -61,12 +61,33 @@ nav ul li {
     box-shadow: 5px 5px 20px black;
 }
 
-.project-section {
+#lang-cont {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.lang-card {
+    height: 100px;
+    width: 100px;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 15px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.lang-card p{
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+.project-section, .languages {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding: 80px;
+    padding: 50px;
  } 
 
 button {
@@ -146,6 +167,13 @@ h3 {
     width: 100px;
     border-radius: 150px;
     height: 100px;
+    align-items: column;
+}
+
+.lang-img {
+    width: 50px;
+    border-radius: 10px;
+    height: 50px;
     align-items: column;
 }
 
