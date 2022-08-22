@@ -19,11 +19,9 @@
 
 This section tells what I am looking for in future work as a back-end developer.
 
-## Portfolio
+## Screenshot
 
-This section will include works to be seen by future employers
-
-    ![screenshot of portfolio](assets/images/readmescreenshot.png)
+    ![screenshot of portfolio](./assets/images/readmescreenshot.png)
 
 ## Credits
 
