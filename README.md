@@ -29,7 +29,9 @@ This section will include works to be seen by future employers
 
 ## Credits
 
-followed this tutorial: https://www.youtube.com/watch?v=-D6oTPA4vXc
+*followed this tutorial: https://www.youtube.com/watch?v=-D6oTPA4vXc
+
+*used https://www.w3schools.com/howto/howto_css_hero_image.asp for help with inserting background image in hero section
 
 ## License
 
