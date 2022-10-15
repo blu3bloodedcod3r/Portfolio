@@ -1,12 +1,12 @@
 /*used video:https://www.youtube.com/watch?v=-D6oTPA4vXc as directions for building my website */
 :root {
- --myblue: rgb(37, 79, 207);
+ --myblue: #1E90FF;
 }
 
 * {
     font-style: cursive, sans-serif, 'Papyrus';
     background-color: var(--myblue);
-    color:aliceblue
+    color: #0000cd;
 }
 
 body {
@@ -42,7 +42,7 @@ hero {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #0000cd;
     z-index: -0.5;
 }
 
@@ -53,7 +53,7 @@ hero {
     justify-items: flex-end;
     margin-top: 50px;
     padding: 10px;
-    color:aqua;
+    color:#0000cd;
 }
 
 nav {
@@ -162,7 +162,7 @@ h3 {
 
 .project-card {
     width: 200px;
-    height: 300px;
+    height: 350px;
     box-shadow: 5px 5px 20px black;
     justify-content: space-around;
     align-items: column;
