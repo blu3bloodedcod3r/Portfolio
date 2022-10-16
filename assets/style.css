@@ -103,7 +103,7 @@ nav ul li {
     transform: scale(1.3);
 }
 
-.project-section, .languages {
+.project-section, .languages, #certs {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -169,7 +169,7 @@ h3 {
     margin: 10px;
 }
 
-.project-container {
+.project-container, #cert-cont, #lang-cont {
     display: flex;
     justify-content: space-around;
     margin: 10px;
@@ -177,7 +177,14 @@ h3 {
 }
 
 @media only screen and (max-width: 996px) {
-    .project-container {
+    .project-container, #cert-cont, #lang-cont {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-container, #cert-cont, #lang-cont {
         display: flex;
         flex-wrap: wrap;
     }
