@@ -29,6 +29,8 @@ This section tells what I am looking for in future work as a back-end developer.
 
 *used https://www.w3schools.com/howto/howto_css_hero_image.asp for help with inserting background image in hero section
 
+* used https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0 to help with hamburger toggle menu
+
 ## License
 
 MIT License
