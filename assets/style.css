@@ -139,10 +139,13 @@ p {
     padding: 10px;
 }
 
-.project-descr {
+.project-descr, .cert-descr {
+    display: flex;
+    flex: wrap;
     font-size: 15px;
     font-weight: 200;
-    display: flex;
+    align-items: column;
+    justify-content: center;
 }
 
 h1 {
@@ -160,13 +163,28 @@ h3 {
     justify-content: space-around;
 }
 
-.project-card {
+.project-card{
     width: 200px;
     height: 350px;
     box-shadow: 5px 5px 20px black;
     justify-content: space-around;
     align-items: column;
     margin: 10px;
+}
+
+.cert-card {
+    width: 200px;
+    height: 375px;
+    box-shadow: 5px 5px 20px black;
+    justify-content: space-around;
+    align-items: column;
+    margin: 10px;
+}
+
+.certifications ul {
+    display: inline-block;
+    align-items: row;
+    justify-items: flex-start;
 }
 
 .project-container, #cert-cont, #lang-cont {
@@ -190,7 +208,7 @@ h3 {
     }
 }
 
-.proj-img {
+.proj-img, .cert-img {
     margin-top: 25px;
     width: 100px;
     border-radius: 150px;
