@@ -35,17 +35,6 @@ hero {
     opacity: 0.8;
 }
 
-#hero-txt p,h1 {
-    background-color:rgb(53, 50, 50);
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #0000cd;
-    z-index: -0.5;
-}
-
 #social, .socials {
     display: flex;
     padding-bottom: 200px;
@@ -307,4 +296,25 @@ a:hover {
 }
 
 
-  
+#hero-txt h1 {
+    background-color:transparent;
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #0000cd;
+    z-index: -0.5;
+}
+
+#hero-txt p {
+    background-color:transparent;
+    text-align: right;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: #0000cd;
+    z-index: -0.5;
+}
+
