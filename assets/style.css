@@ -4,6 +4,7 @@
 }
 
 * {
+    /* background-image: ; */
     font-style: cursive, sans-serif, 'Papyrus';
     background-color: var(--myblue);
     color: #0000cd;
@@ -26,7 +27,7 @@ hero {
 /* used https://www.w3schools.com/howto/howto_css_hero_image.asp for help with inserting background image in hero section*/
 
 #hero-img {
-    background-color: black;
+    background-color: transparent;
     height: 65vh;
     width: 100%;
     background-position: 100%;
@@ -37,11 +38,10 @@ hero {
 
 #social, .socials {
     display: flex;
-    padding-bottom: 200px;
-    align-items: row;
-    justify-items: flex-end;
-    margin-top: 50px;
-    padding: 10px;
+    align-items: column;
+    justify-items: left;
+    margin-top: 10px;
+    padding: 5px;
     color:#0000cd;
 }
 
