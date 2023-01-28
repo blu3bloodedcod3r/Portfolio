@@ -197,7 +197,8 @@ h2 {
 
 h3 {
     font-size: 25px;
-    justify-content: space-around;
+    display:flex;
+    justify-content: center;
 }
 
 .project-card{
@@ -213,8 +214,8 @@ h3 {
     width: 200px;
     height: 375px;
     box-shadow: 5px 5px 20px black;
-    justify-content: space-around;
-    align-items: column;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
 }
 
@@ -245,17 +246,27 @@ h3 {
     }
 }
 
-.proj-img, .cert-img {
+.proj-img {
+    display: inline-block;
+    align-items: row;
     margin-top: 25px;
     width: 100px;
     border-radius: 150px;
     height: 100px;
-    align-items: column;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .cert-img {
-    align-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 150px;
+    height: 100px;
+    /* align-items: center; */
+    justify-content: center;
 }
 
 .proj-img:hover {
