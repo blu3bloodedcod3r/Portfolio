@@ -2,10 +2,10 @@
 
 ## Description
 
-- My motivation for this project was to begin designing my project portfolio.
-- I built this project so that I have a chance to start collecting my works to begin a career in Back-End development.
--This solves the problem of employers asking for a portfolio and certification; this will eventually be hyperlinked to a resume.
-- I learned that to get over a hump you must find a video that explains the issue rather well.
+- My motivation for this project was to re-design my project portfolio using React and linking my resume.
+- I adjusted this project so that I can be employer ready and searching for Web-development positions.
+- This solves the problem of employers having to ask for a portfolio and I may send them one that is already at the ready to be viewed by hiring managers.
+- I learned that reacts makes styling easier so that JSX can be used and files can be smaller so they load faster
 
 ## Table of Contents (Optional)
 
@@ -17,7 +17,7 @@
 
 ## About me
 
-This section tells what I am looking for in future work as a back-end developer.
+This section tells what I am looking for in future work as a Web-Developer.
 
 ## Screenshot
 

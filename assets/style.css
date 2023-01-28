@@ -1,4 +1,3 @@
-/*used video:https://www.youtube.com/watch?v=-D6oTPA4vXc as directions for building my website */
 :root {
  --myblue: #1E90FF;
 }
@@ -23,8 +22,6 @@ hero {
     font-size: 30px;
     align-items: right;
 }
-
-/* used https://www.w3schools.com/howto/howto_css_hero_image.asp for help with inserting background image in hero section*/
 
 #hero-img {
     background-color: transparent;
@@ -126,10 +123,18 @@ nav ul li {
     transform: scale(1.3);
 }
 
-.project-section, .languages, #certs {
+.project-section, .languages {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    padding: 50px;
+ } 
+
+#certs {
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
     align-items: center;
     padding: 50px;
  } 
@@ -162,13 +167,22 @@ p {
     padding: 10px;
 }
 
-.project-descr, .cert-descr {
+.project-descr {
     display: flex;
     flex: wrap;
     font-size: 15px;
     font-weight: 200;
     align-items: column;
     justify-content: center;
+}
+
+.cert-descr {
+    display: flex;
+    flex: wrap;
+    font-size: 15px;
+    font-weight: 200;
+    align-items: flex-start;
+    justify-content: center
 }
 
 h1 {
@@ -287,6 +301,7 @@ hr {
 footer {
     font-size: 15px;
     text-align: center;
+    justify-content: center;
     border-top: 5px white;
 }
 

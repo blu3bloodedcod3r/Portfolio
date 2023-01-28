@@ -2,12 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./assets/style.css">
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+        <link rel="stylesheet" href="./assets/style.css"/>
         <title>Crystal's Professional Porfolio</title>
     </head>
 
     <body>
-        <header>
+         <header>
             <nav>
                 <div>Logo</div>
                 <ul class="menu">
@@ -22,14 +23,14 @@
                     <i class="menuIcon material-icons">menu</i>
                     <i class="closeIcon material-icons">close</i>
                 </button> -->
-            </nav>
+            </nav> 
         </header>   
-        <hero>
+         <hero>
             <img id="hero-img" src="assets/images/univers.jpg" alt="image of the universe"/>
             <section id="hero-txt">
                 <h1>Crystal Aguilar</h1>
                 <p>Full-Stack Developer</p>
-                <!--<button><a href="#mystory">My Story</a></button>-->
+                <!-- <button><a href="#mystory">My Story</a></button> -->
             </section>
         </hero>   
         <section id="social" class="socials">
@@ -53,25 +54,29 @@
                 <div class="project-card">
                     <a href="https://bootcampspot.instructuremedia.com/embed/79090ab3-b218-4225-ab44-8c1b3e821bde" target="_blank"><img class="proj-img" src="./assets/images/bakendpic.png" alt="Screemshot of Employee tracker video/code" width="50%" style="max-width: 100%;"></a>
                     <h3>Employee Tracker</h3>
-                    <p class="project-descr">Utilized mySQL to create an E-Commerce back-end that utilizes object relational mapping within a database.</p>
+                    <p class="project-descr">Utilized mySQL with Sequelize and JavaScript with Express.js to create an E-Commerce back-end that utilizes object relational mapping within a database.</p>
+                    <a href="https://github.com/blu3bloodedcod3r/E-commerce_Back-End" target="'_blank">Github Repo</a>
                     </hr>
                 </div>
                 <div class="project-card">
                     <a href=" https://blu3bloodedcod3r.github.io/Food-Finder-App/" target="_blank"><img class="proj-img" src="./assets/images/foodfinderapREADmescreenshot.png" alt="Image of Food Finder app home screen"/></a>
                     <h3>Food Finder App</h3>
                     <p class="project-descr">A group project that created an app with 2 fetch API's, jQuery, Javascript, Bootstrap CSS and HTML. The purpose of this app is to find restaurants near your searched location.</p>
+                    <a href="https://github.com/blu3bloodedcod3r/Food-Finder-App" target="'_blank">Github Repo</a>
                     </hr>
                 </div>
                 <div class="project-card">
                     <a href="https://blu3bloodedcod3r.github.io/weatherApp/" target="_blank"><img class="proj-img" src="assets/images/weatherAppScreenshot.png" alt="Project 1 image"/></a>
                     <h3>Weather App</h3>
-                    <p class="project-descr">Using fetch API's, this app checks your current day and 4-day futurecast. Your searches will produce a button so that you may view the weather for that city by just clicking on the name of the city.</p>
+                    <p class="project-descr">Using fetch API's, JavaScript, HTML and CSS, this app checks your current day and 4-day futurecast. Your searches will produce a button so that you may view the weather for that city by just clicking on the name of the city.</p>
+                    <a href="https://github.com/blu3bloodedcod3r/weatherApp" target="'_blank">Github Repo</a>
                     </hr>
                 </div>    
                 <div class="project-card">
                     <a href="https://arcane-mesa-34792.herokuapp.com" target="_blank"><img class="proj-img" src="assets/images/cc's_salon-homepage.png" alt="CeeCee's Salon Homepage screenshot"/></a>
                     <h3>CeeCee's Salon</h3>
-                    <p class="project-descr">Group created bussiness website to help make appointments for a hairstylist</p>
+                    <p class="project-descr">Group created bussiness website with JavaScript, Express.js, Handlebars.js, mySQL2 and some jQuery to help make appointments for a hairstylist</p>
+                    <a href="https://github.com/blu3bloodedcod3r/CeeCee-s_Salon" target="'_blank">Github Repo</a>
                     </hr>
                 </div> 
             </section>     
@@ -142,10 +147,10 @@
                 <p class="info-container">Github: <a href="https://github.com/blu3bloodedcod3r" target="_blank"> blu3bloodedcod3r</a></p>
             </section>
         </section>
-
+        
         <footer>
-            Kriis Productions est. 1988
+            Kriis' Productions ext. 1988
         </footer>
+        <script href="./script.js"></script>
     </body>
-    <script href="./script.js"></script>
 </html>
