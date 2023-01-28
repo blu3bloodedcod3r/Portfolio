@@ -251,6 +251,11 @@ h3 {
     border-radius: 150px;
     height: 100px;
     align-items: column;
+
+}
+
+.cert-img {
+    align-content: center;
 }
 
 .proj-img:hover {
